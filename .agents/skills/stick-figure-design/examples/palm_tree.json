@@ -1,0 +1,16 @@
+{
+  "name": "palm tree",
+  "complexity": 1,
+  "color_top": [0, 100, 0],
+  "color_bottom": [139, 90, 43],
+  "category": "plants",
+  "root": "trunk",
+  "children": [
+    {"name": "trunk", "start": "base", "end": "top", "length": 6, "azimuth_angle": 0, "elevation_angle": 85, "width": 1, "shaping_flap": false},
+    {"name": "frond_1", "start": "top", "end": "frond_1_tip", "length": 4, "azimuth_angle": 0, "elevation_angle": 30, "width": 1, "shaping_flap": false},
+    {"name": "frond_2", "start": "top", "end": "frond_2_tip", "length": 4, "azimuth_angle": 72, "elevation_angle": 20, "width": 1, "shaping_flap": false},
+    {"name": "frond_3", "start": "top", "end": "frond_3_tip", "length": 4, "azimuth_angle": 144, "elevation_angle": 20, "width": 1, "shaping_flap": false},
+    {"name": "frond_4", "start": "top", "end": "frond_4_tip", "length": 4, "azimuth_angle": -144, "elevation_angle": 20, "width": 1, "shaping_flap": false},
+    {"name": "frond_5", "start": "top", "end": "frond_5_tip", "length": 4, "azimuth_angle": -72, "elevation_angle": 20, "width": 1, "shaping_flap": false}
+  ]
+}

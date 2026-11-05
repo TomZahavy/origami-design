@@ -1,0 +1,19 @@
+{
+  "name": "spider",
+  "complexity": 1,
+  "color_top": [0, 0, 0],
+  "color_bottom": [0, 0, 0],
+  "category": "insects",
+  "root": "abdomen",
+  "children": [
+    {"name": "abdomen", "start": "abdomen_front", "end": "abdomen_rear", "length": 2, "azimuth_angle": 180, "elevation_angle": 0, "width": 1, "shaping_flap": false},
+    {"name": "leg_1_left", "start": "abdomen_front", "end": "leg_1_left_tip", "length": 3, "azimuth_angle": 120, "elevation_angle": -30, "width": 1, "shaping_flap": false},
+    {"name": "leg_2_left", "start": "abdomen_front", "end": "leg_2_left_tip", "length": 3, "azimuth_angle": 90, "elevation_angle": -30, "width": 1, "shaping_flap": false},
+    {"name": "leg_3_left", "start": "abdomen_front", "end": "leg_3_left_tip", "length": 3, "azimuth_angle": 60, "elevation_angle": -30, "width": 1, "shaping_flap": false},
+    {"name": "leg_4_left", "start": "abdomen_front", "end": "leg_4_left_tip", "length": 3, "azimuth_angle": 30, "elevation_angle": -30, "width": 1, "shaping_flap": false},
+    {"name": "leg_1_right", "start": "abdomen_front", "end": "leg_1_right_tip", "length": 3, "azimuth_angle": -120, "elevation_angle": -30, "width": 1, "shaping_flap": false},
+    {"name": "leg_2_right", "start": "abdomen_front", "end": "leg_2_right_tip", "length": 3, "azimuth_angle": -90, "elevation_angle": -30, "width": 1, "shaping_flap": false},
+    {"name": "leg_3_right", "start": "abdomen_front", "end": "leg_3_right_tip", "length": 3, "azimuth_angle": -60, "elevation_angle": -30, "width": 1, "shaping_flap": false},
+    {"name": "leg_4_right", "start": "abdomen_front", "end": "leg_4_right_tip", "length": 3, "azimuth_angle": -30, "elevation_angle": -30, "width": 1, "shaping_flap": false}
+  ]
+}

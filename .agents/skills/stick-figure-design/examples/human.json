@@ -1,0 +1,16 @@
+{
+  "name": "human",
+  "complexity": 1,
+  "color_top": [247, 215, 216],
+  "color_bottom": [247, 215, 216],
+  "category": "humans",
+  "root": "torso",
+  "children": [
+    {"name": "torso", "start": "hips", "end": "shoulders", "azimuth_angle": 0, "length": 4, "elevation_angle": 90.0, "width": 1, "shaping_flap": false},
+    {"name": "head", "start": "shoulders", "end": "head_top", "azimuth_angle": 0, "length": 1, "elevation_angle": 90.0, "width": 1, "shaping_flap": false},
+    {"name": "right_arm", "start": "shoulders", "end": "right_hand", "azimuth_angle": -165, "length": 3, "elevation_angle": -20.0, "width": 1, "shaping_flap": false},
+    {"name": "left_arm", "start": "shoulders", "end": "left_hand", "azimuth_angle": 165, "length": 3, "elevation_angle": -20.0, "width": 1, "shaping_flap": false},
+    {"name": "right_leg", "start": "hips", "end": "right_foot", "azimuth_angle": -90, "length": 4, "elevation_angle": -60.0, "width": 1, "shaping_flap": false},
+    {"name": "left_leg", "start": "hips", "end": "left_foot", "azimuth_angle": 90, "length": 4, "elevation_angle": -60.0, "width": 1, "shaping_flap": false}
+  ]
+}
